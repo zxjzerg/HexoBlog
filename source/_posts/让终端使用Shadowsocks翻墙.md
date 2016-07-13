@@ -1,11 +1,13 @@
 ---
-title: 让终端使用Shadowsocks翻墙经验
+title: Mac系统让终端使用Shadowsocks翻墙
+date: 2016/05/02
+update: 2016/07/13
 ---
 
 # 前言 #
 在OS X上终端不会使用设置好的SOCKS5系统代理，那要如何才能让终端也能翻墙呢？
 搜索了一些解决方案，有推荐proxychains-ng的，但是在EI Capitan上proxychains-ng会受到苹果的限制，参考[使用proxychains-ng的教程](https://eliyar.biz/code/proxy-for-mac-terminal/)。
-最终我使用的方案是使用privoxy先将Socks代理转化为Http代理之后，然后在终端中配置代理服务器来解决。
+最终我采取方案是使用privoxy先将Socks代理转化为Http代理之后，然后在终端中配置代理服务器来解决。
 
 # 实现步骤 #
 参考[mac osx 下面shadowsocks 转换成http代理](http://www.fyhqy.com/post-383.html)

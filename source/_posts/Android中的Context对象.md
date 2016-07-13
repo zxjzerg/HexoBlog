@@ -1,5 +1,7 @@
 ---
-title: Android Context对象学习
+title: Android中的Context对象
+date: 2016/04/07
+update: 2016/07/13
 ---
 
 ## 相关的类
