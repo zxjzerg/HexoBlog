@@ -12,7 +12,7 @@ NavigationView可以用来快速的创建一个导航菜单。菜单的内容可
 ### 构建布局文件
 NavigationView一般会以[DrawerLayout](https://developer.android.com/reference/android/support/v4/widget/DrawerLayout.html)做为容器，然后和[Toolbar](https://developer.android.com/reference/android/support/v7/widget/Toolbar.html)配合使用。
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.v4.widget.DrawerLayout android:id="@+id/dlyt_container"
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -63,7 +63,7 @@ DrawerLayout里面的LinearLayout用以摆放我们要展示的内容，其中�
 
 drawer_header:
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -81,7 +81,7 @@ drawer_header:
 
 menu_main:
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <group android:checkableBehavior="single">
